@@ -72,3 +72,4 @@ all_letters = db.letters
 for letter in data:
     all_letters.insert_one(letter)
 
+# driver.close()
