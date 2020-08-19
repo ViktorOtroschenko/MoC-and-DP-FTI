@@ -11,7 +11,7 @@ class InstagramSpider(scrapy.Spider):
     allowed_domains = ['instagram.com']
     start_urls = ['https://instagram.com/']
     insta_login = 'Buk_Pars'
-    insta_password = '#PWD_INSTAGRAM_BROWSER:10:1597505866:AWpQAAiTdQ3PdRbVSPLPZOskLRyeT/HNymSBsmc1XsEFPMh47xkpH1uxYoMdjIZKjMDN+YySE+GYpwc1aoa4PPN+H61Y45neU4590mxczJX2+/OiSLYvAbNvEnS44QapCgYRhO5BlwHSZ6nYCm7r'
+    insta_password = '#PWD_INSTAGRAM_BROWSER:'
     inst_login_link = 'https://www.instagram.com/accounts/login/ajax/'
     parse_user = ['kotyapedotya', 'kwakpub']
 
